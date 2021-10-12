@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Jeromse School Club Registration Form</title>
+    <link rel="icon" href="assets/School_Logo_Favicon.svg">
+    <link rel="stylesheet" href="scss/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="hero_image">
+            <img src="assets/School_Logo.svg" alt="" class="heroimage">
+        </div>
+        <div class="content">
+            <div class="container_1">
+            <div class="container_1_Content_1">
+            <img src="assets/School_Logo_Green.svg" alt="">
+            </div>
+            
+            </div>
+        
+        <div class="container_2">
+            <div class="header">
+            <h1>SCHOOL ORGANIZATIONS</h1>
+            <h2>Registration Form</h2>
+            </div>
+        </div>
+
+
+
+        <div class="container_3">
+         <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd9fsavKGS6HP19mOFiGUYrRzKS0p8CNINckBAmVxWooxXO9Q/formResponse" method="post">
+            
+            <div class="header section_1" id="section1">
+                <div class="_content">
+                <h3>STUDENT BASIC INFORMATION</h3>
+                <p>All information will be gathered is will be used only
+                    on indetify the student upon the registrations
+                </p>
+                </div>
+            </div>
+
+            <div class="form_element section_1" id="section2">
+            <span>Student's Full Name</span>
+            <input type="text"  name="entry.887854383" placeholder="(Last Name,First Name,Middle Initials)" required>
+            </div>
+
+            <div class="form_element section_1" id="section3">
+            <span>Student's Grade Level & Section</span>
+            <input type="text"  name="entry.846635993" placeholder="(Grade level - Section)" required> 
+            </div>
+
+            <div class="header section_2" id="section4">
+                <div class="_content">
+                <h3>SCHOOL ORGANIZATIONS FOR ACADEMIC YEAR 2021-2022</h3>
+                <p>Please pick the desired club to join in.</p>
+                <p>(Each Student are allowed to join different clubs with the maximum of 2 clubs per student)
+                </p>
+                </div>
+            </div>
+
+            <div class="form_element section_2" id="section5">
+                
+                <div class="checkbox_element">
+                <input type="checkbox" class="checkbox_item"  name="entry.1836083359" value="Visual Art Club (Illustradiantes)" id="visualartclub"> 
+                <label for="visualartclub">Visual Art Club</label>
+                </div>
+
+                <div class="checkbox_element">
+                <input type="checkbox" class="checkbox_item"  name="entry.1836083359" value="Cookery Club (Master Meals)" id="cookeryclub"> 
+                <label for="cookeryclub">Cookery Club</label>
+                </div>
+                
+                <div class="checkbox_element">
+                <input type="checkbox" class="checkbox_item"  name="entry.1836083359"  value="SPA Club (Special Program for Arts)" id="specialprogramforartsclub">
+                <label for="specialprogramforartsclub">Special Program for Arts Club</label>
+                </div>
+
+                <div class="checkbox_element">
+                <input type="checkbox" class="checkbox_item"  name="entry.1836083359"  value="Atheltic Club ()" id="athleticclub">
+                <label for="athleticclub">Athletic Club</label>
+                </div>
+
+            </div>
+
+            <div class="warning_off" id="section6">
+                <p>Only 2 Clubs are elligable to join in for each student</p>
+            </div>
+            
+            <div class="header section_3">
+                <div class="_content">
+                <h3>STUDENT'S CONTACT INFORMATION</h3>
+                <p>The following information will be exclusively used in contacting you for your Club Application conformation.</p>
+                <p>(Feel free to skip the other segment blank if you don't have any accounts or contact in that particular social media platform)</p>
+                </div>
+            </div>
+
+            <div class="form_element section_3">
+                <span>Currently Using Email Address</span>
+                <input type="email"  name="entry.972911212" placeholder="( @gmail.com or @yahoo.com )" required> 
+            </div>
+
+            <div class="form_element section_3">
+                <span>Facebook</span>
+                <input type="text"  name="entry.684426561" placeholder="( Actively and Currently using account, @username )"> 
+            </div>
+            
+            <div class="form_element section_3">
+                <span>Twitter</span>
+                <input type="text"  name="entry.1942225966" placeholder="( Actively and Currently using account, @username )"> 
+            </div>
+            
+            <div class="submit">
+                <input type="submit" value="REGISTER">
+            </div>
+
+            </form>
+        </div>
+
+
+        
+        
+    </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+var limit = 2;
+$('input.checkbox_item').on('click', function (evt) {
+    if ($('.checkbox_item:checked').length > limit) {
+        this.checked = false;
+        $('#section6').addClass("warning_on")
+        $('#section6').removeClass("warning_off")  
+    }else{
+        $('#section6').addClass("warning_off")
+        $('#section6').removeClass("warning_on")  
+    }
+});
+
+</script>
+</html>

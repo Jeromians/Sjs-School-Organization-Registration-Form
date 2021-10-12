@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="navigate_next_black_24dp.svg"
+   id="svg6"
+   version="1.1"
+   fill="#000000"
+   width="6.8249998"
+   viewBox="0 0 6.8249998 11.167"
+   height="11.167">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10">
+    <inkscape:path-effect
+       hide_knots="false"
+       only_selected="false"
+       apply_with_radius="true"
+       apply_no_radius="true"
+       use_knot_distance="true"
+       flexible="false"
+       chamfer_steps="1"
+       radius="0"
+       mode="F"
+       method="auto"
+       unit="px"
+       satellites_param="F,0,0,1,0,1.0166073,0,1 @ F,0,0,1,0,1.0166073,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,1.0411039,0,1 @ F,0,0,1,0,1.0411039,0,1 @ F,0,0,1,0,0.41572044,0,1"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect30"
+       effect="fillet_chamfer" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg6"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="2.6210227"
+     inkscape:cx="7.9595586"
+     inkscape:zoom="20.411028"
+     showgrid="false"
+     id="namedview8"
+     inkscape:window-height="745"
+     inkscape:window-width="1366"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path2"
+     fill="none"
+     d="M 0,0 H 24 V 24 H 0 Z" />
+  <path
+     style="fill:#007f5f;fill-opacity:1"
+     id="path4"
+     d="M 0.27851419,0.29780555 A 0.99830059,0.99830059 0 0 0 0.30542969,1.708589 L 4.1673641,5.5789556 0.32273251,9.4319816 a 1.0422399,1.0422399 0 0 0 8.0324e-4,1.4731454 0.99799464,0.99799464 0 0 0 1.40999995,-0.06234 L 6.7034054,5.8729143 a 0.41572044,0.41572044 0 0 0 0,-0.5879174 L 1.716214,0.29780555 a 1.0166073,1.0166073 0 0 0 -1.43769981,0 z" />
+</svg>
