@@ -21,6 +21,13 @@ html {
 }
 
 @font-face {
+  font-family: 'gilroyextrabold';
+  src: url("/gilroy-extrabold-webfont.woff2") format("woff2"), url("/gilroy-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: Gilroy-Light;
   src: url(/assets/Gilroy-Light.otf);
 }
@@ -103,7 +110,7 @@ html {
 
 .wrapper .content .container_2 .header h1 {
   font-size: 50px;
-  font-family: Gilroy-ExtraBold;
+  font-family: gilroyextrabold;
   padding: 20px 0px 15px 0px;
 }
 
@@ -120,7 +127,7 @@ html {
 
 .wrapper .content .container_3 .warning_off {
   display: none;
-  font-family: Gilroy-ExtraBold;
+  font-family: gilroyextrabold;
   font-size: 20px;
   color: #007f5f;
   padding-bottom: 25px;
@@ -130,7 +137,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: Gilroy-ExtraBold;
+  font-family: gilroyextrabold;
   font-size: 20px;
   color: #007f5f;
   padding-bottom: 25px;
@@ -164,7 +171,7 @@ html {
 
 .wrapper .content .container_3 form .header ._content h3 {
   font-size: 20px;
-  font-family: Gilroy-ExtraBold;
+  font-family: gilroyextrabold;
 }
 
 .wrapper .content .container_3 form .header ._content p {
@@ -228,7 +235,7 @@ html {
   border-radius: 15px;
   -webkit-transition: all ease-in-out 0.2s;
   transition: all ease-in-out 0.2s;
-  font-family: Gilroy-ExtraBold;
+  font-family: gilroyextrabold;
   color: #007f5f;
   background: none;
 }
@@ -279,7 +286,7 @@ html {
   border: solid 2px #747776;
   border-radius: 10px;
   margin: 10px 0px;
-  font-family: Gilroy-ExtraBold;
+  font-family: gilroyextrabold;
   color: #007f5f;
   overflow: hidden;
   display: block;

@@ -19,6 +19,14 @@ html{
 }  
 
 @font-face {
+    font-family: 'gilroyextrabold';
+    src: url('/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('/gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: Gilroy-Light;
     src: url(/assets/Gilroy-Light.otf);
 }  
