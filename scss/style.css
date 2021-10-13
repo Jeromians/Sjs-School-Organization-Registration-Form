@@ -17,12 +17,12 @@ html {
 
 @font-face {
   font-family: Gilroy-ExtraBold;
-  src: url(assets/Gilroy-ExtraBold.otf);
+  src: url(/assets/Gilroy-ExtraBold.otf);
 }
 
 @font-face {
   font-family: Gilroy-Light;
-  src: url(assets/Gilroy-Light.otf);
+  src: url(/assets/Gilroy-Light.otf);
 }
 
 .wrapper {
