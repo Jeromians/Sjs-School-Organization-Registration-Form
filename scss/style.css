@@ -22,7 +22,7 @@ html {
 
 @font-face {
   font-family: 'Gilroy-Light';
-  src: url(/assets/Gilroy-Light.otf);
+  src: url(/Fonts/Gilroy-Light.otf);
 }
 
 .wrapper {
