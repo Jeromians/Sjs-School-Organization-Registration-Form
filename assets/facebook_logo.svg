@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="facebook_logo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 52.916666 52.595197"
+   height="198.785"
+   width="200">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="745"
+     inkscape:window-width="1366"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="232.19399"
+     inkscape:cx="435.35199"
+     inkscape:zoom="0.67072727"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#3b3b3b"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       d="M 52.916667,26.458335 C 52.916667,11.845789 41.070879,0 26.458334,0 11.845789,0 0,11.845789 0,26.458335 0,39.664451 9.675431,50.610336 22.32422,52.595241 V 34.106446 h -6.717939 v -7.648111 h 6.717939 v -5.829103 c 0,-6.63112 3.95004,-10.293946 9.993703,-10.293946 2.894758,0 5.922635,0.516765 5.922635,0.516765 v 6.511231 h -3.336332 c -3.286774,0 -4.311778,2.039511 -4.311778,4.131892 v 4.963161 H 37.9305 l -1.173055,7.648111 H 30.592448 V 52.595241 C 43.241237,50.610336 52.916667,39.664451 52.916667,26.458335"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00516762"
+       id="path14" />
+  </g>
+</svg>

@@ -231,6 +231,8 @@
                     input:checked ~ label {
                         color: #fff;
                         border: solid 2px #007f5f;
+                        z-index: 3;
+
                         //background-color: #007f5f;
                   
                         &:before {
@@ -250,7 +252,54 @@
         }
     }
 
-       
+    .footnote{
+        display: none;
+        flex-direction: column;
+        color: #fff;
+        width: 70%;
+
+        .upper_text{
+            font-family: gilroyextrabold;
+            font-size: 17px;
+            padding: 15px 0px;
+            text-align: center;
+        }
+
+        .middle_text{
+            font-family: Gilroy-Light;
+            text-align: center;
+            font-size: 15px;
+            padding: 15px 0px;
+        }
+
+        .lower_text{
+            font-family: Gilroy-Light;
+            display: flex;
+            flex-direction: row;
+            padding: 10px 0px;
+            
+
+            .text{
+                display: flex;
+                flex-direction: row;
+                font-size: 5px;
+                align-items: center;
+
+                p{
+                    padding: 0px  10px;
+                    font-size: 10px
+                }
+            };
+
+            .t2{
+                padding: 0px 10px;
+                img{
+                    width: 20px;
+                    height: 100%;
+                }
+            }
+        }
+    } 
 
 }
 
