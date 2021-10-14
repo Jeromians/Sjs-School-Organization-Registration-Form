@@ -370,4 +370,34 @@ html {
     visibility: collapse;
   }
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #007f5f;
+    height: 100%;
+  }
+  .wrapper .hero_image .heroimage {
+    width: 25vw;
+    height: auto;
+    padding: 40px;
+  }
+  .wrapper .content {
+    background-color: #fff;
+    height: 100%;
+    width: 70%;
+    overflow-y: auto;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .wrapper .content .container_1 {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+//beakpoints and Media Qu
+@media (max-width: 768px){
+
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+        background-color: #007f5f;
+        height: 100%;
+
+
+        .hero_image{
+            .heroimage{
+                width: 25vw;
+                height: auto;
+                padding: 40px;
+            }
+        }
+
+        .content{
+            background-color: #fff;
+            height: 100%;
+            width: 70%;
+            overflow-y: auto;
+            border-radius: 20px;
+            text-align: center;
+            
+            .container_1{
+                display: none;
+            }
+        }
+    }
+}
