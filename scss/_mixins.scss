@@ -10,7 +10,7 @@
 
         .hero_image{
             .heroimage{
-                width: 25vw;
+                width: 30%;
                 height: auto;
                 padding: 40px;
             }
@@ -19,13 +19,52 @@
         .content{
             background-color: #fff;
             height: 100%;
-            width: 70%;
+            width: 80%;
             overflow-y: auto;
             border-radius: 20px;
             text-align: center;
-            
+            padding: 3%;
+
             .container_1{
                 display: none;
+            };
+
+            .container_2{
+                .header{
+                h1{
+                    font-size: 31px;
+                    font-family: gilroyextrabold;
+                    padding: 20px 0px 8px 0px
+                }
+                }
+            }
+
+            .container_3{
+                form{
+                    text-align: left;
+
+                    .header{
+                        text-align: center;
+                    }
+
+                    .form_element{
+                        input{
+                            height: 40px;
+                            font-size: 10px;
+    
+                        }
+                    }
+                    
+
+                    .submit{
+                        justify-content: center;
+                        
+                        input{
+                            width: 100%;
+                            height: 50%;
+                        }
+                    }
+                }
             }
         }
     }
